@@ -1,6 +1,6 @@
 # npmtest-restify-jwt
 
-#### test coverage for  [restify-jwt (v0.4.0)](https://github.com/amrav/restify-jwt)  [![npm package](https://img.shields.io/npm/v/npmtest-restify-jwt.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-restify-jwt) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-restify-jwt.svg)](https://travis-ci.org/npmtest/node-npmtest-restify-jwt)
+#### basic test coverage for  [restify-jwt (v0.4.0)](https://github.com/amrav/restify-jwt)  [![npm package](https://img.shields.io/npm/v/npmtest-restify-jwt.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-restify-jwt) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-restify-jwt.svg)](https://travis-ci.org/npmtest/node-npmtest-restify-jwt)
 
 #### JWT authentication middleware.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-restify-jwt/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-restify-jwt/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-restify-jwt/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-restify-jwt/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-restify-jwt/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-restify-jwt/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-restify-jwt/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-restify-jwt/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-restify-jwt/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-restify-jwt/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-restify-jwt/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-restify-jwt/build/coverage.html/index.html)
 
@@ -97,7 +97,8 @@
     "scripts": {
         "test": "mocha --reporter spec"
     },
-    "version": "0.4.0"
+    "version": "0.4.0",
+    "bin": {}
 }
 ```
 
